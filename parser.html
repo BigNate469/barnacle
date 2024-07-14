@@ -5,10 +5,11 @@
     <script src="parser.js"></script>
   </head>
   <body>
+    <p id="output"></p>
     <script>
       let input = prompt("insert some Barnacle code to be parsed");
-      barnacle.parse(input);
-      
+      let el = document.getElementById("output");
+      el.innerText = JSON.parse(barnacle.parse(input));
     </script>
   </body>
 </html>
