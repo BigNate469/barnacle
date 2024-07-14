@@ -37,6 +37,7 @@ let barnacle = {
           currentValue = currentValue + text.at(i);
         }
       };
-    }
+    };
+    return output;
   }
 }
