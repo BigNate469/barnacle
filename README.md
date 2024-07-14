@@ -20,3 +20,5 @@ someobject (object)
 ;
 ```
 The semicolin can come at the end of the last value. In fact, the parser doesn't pay attention to newline characters- everything can be written inline.
+
+you can use whatever file extension and MIME type you want- however I recomend using a MIME type of text/plain and a unique file extnsion so that you can tell these files apart from others.
