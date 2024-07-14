@@ -15,6 +15,6 @@ Values are seperated by commas. When the parser reaches the semicolin, it stops.
 Object declration is achived through a similar method to how arrays are declared:
 
 someobject (object)
-  - firstvalue blah
-  - secondvalue (array) a value, a second value
+  \- firstvalue blah
+  \- secondvalue (array) a value, a second value
 ;
