@@ -1,5 +1,5 @@
 let barnacle = {
-  function parse(text) {
+  parse: function(text) {
     let output = {};
     let current = "key"
     let currentKeyName = "";
