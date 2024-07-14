@@ -1,4 +1,5 @@
-# A data storage language designed for small size and human readablility
+# Barnacle
+A data storage language designed for small size and human readablility
 ## specification & guide
 New values are declared by simply entering a name, space, and a value. Example:
 ```
