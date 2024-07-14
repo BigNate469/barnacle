@@ -8,17 +8,19 @@ The parser only cares about the first space, after that, it considers the rest t
 
 Array/list declration is done by specifying data type immedately after the name:
 ```
-anarray (array) some value, some other value, value 3;
+anarray (a) some value, some other value, value 3;
 ```
 Values are seperated by commas. When the parser reaches the semicolin, it stops.
 
 Object declration is achived through a similar method to how arrays are declared:
 ```
-someobject (object)
+someobject (o)
   - firstvalue blah
-  - secondvalue (array) a value, a second value
+  - secondvalue (a) a value, a second value
 ;
 ```
 The semicolin can come at the end of the last value. In fact, the parser doesn't pay attention to newline characters- everything can be written inline.
 
-you can use whatever file extension and MIME type you want- however I recomend using a MIME type of text/plain and a unique file extnsion so that you can tell these files apart from others.
+You can use whatever file extension and MIME type you want- however I recomend using a MIME type of text/plain and a unique file extnsion so that you can tell these files apart from others.
+
+The parser that I have provided does not support objects; make your own if you want that.
