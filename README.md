@@ -19,3 +19,4 @@ someobject (object)
   - secondvalue (array) a value, a second value
 ;
 ```
+The semicolin can come at the end of the last value. In fact, the parser doesn't pay attention to newline characters- everything can be written inline.
