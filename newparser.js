@@ -17,4 +17,5 @@ let parseBarnacle = function(text) {
       currentValue = currentValue + text.at(i);
     };
   };
+  return output;
 };
