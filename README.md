@@ -13,18 +13,18 @@ Semicolins end values.
 
 Array/list declration is done by specifying data type immedately after the name:
 ```
-anarray |a some value, some other value, value 3;
+anarray |a| some value, some other value, value 3;
 ```
 Values are seperated by commas. When the parser reaches the semicolin, it stops.
 
 Object declration is achived through a similar method to how arrays are declared:
 ```
-someobject |o
+someobject |o|
   - firstvalue blah
   - secondvalue (a) a value, a second value
 ;
 ```
-The semicolin can come at the end of the last value. In fact, the parser doesn't pay attention to newline characters- everything can be written inline.
+The semicolin can come at the end of the last value. In fact, the parser doesn't pay attention to newline characters- everything can be written inline. However, if you don't, you may experence some seeming random \n(s) in your code.
 
 You can use whatever file extension and MIME type you want- however I recomend using a MIME type of text/plain and a unique file extnsion so that you can tell these files apart from others.
 
