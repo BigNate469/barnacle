@@ -24,7 +24,7 @@ The semicolin can come at the end of the last value. In fact, the parser doesn't
 
 You can use whatever file extension and MIME type you want- however I recomend using a MIME type of text/plain and a unique file extnsion so that you can tell these files apart from others.
 
-The parser that I have provided does not support objects; make your own if you want that. Currently working on arrays.
+The parser that I have provided does not support objects (yet); make your own if you want that. Currently working on arrays.
 
 ### Escaping characters
 Characters are escaped using the | character (known as a pipe or absolute value sign), not the backslash.
@@ -35,7 +35,7 @@ Currently, characters that must be escaped are:
 ## FAQ
 ### Why do I have to escape my spaces (and where's the = sign?)
 
-In barnacle, a space takes the place of the equals sign or colin as the assignment operator. This reduces overall file size. However, if you're building a minifier for barnacle, you do have to keep this in mind.
+In Barnacle, a space takes the place of the equals sign or colin as the assignment operator. This reduces overall file size. However, if you're building a minifier for barnacle, you do have to keep this in mind.
 
 ### Where's the quotes, and why are all the outputs strings?
 
