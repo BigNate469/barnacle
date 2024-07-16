@@ -25,7 +25,7 @@ let parseBarnacle = function(text) {
     let temp = tempValues[i];
     if(temp.includes("|a")) {
       for (let i2 = 3; i2 < temp.length; i2++) { // Starts at the fourth character because this is where the array should acually start
-        //TODO: parse arrays.
+        //TODO: parse array items, sperate into induvidual values, set tempValues[i] to the resulting array.
       };
     };
   };
