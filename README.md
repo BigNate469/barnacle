@@ -13,13 +13,13 @@ Semicolins end values.
 
 Array/list declration is done by specifying data type immedately after the name:
 ```
-anarray (a) some value, some other value, value 3;
+anarray |a some value, some other value, value 3;
 ```
 Values are seperated by commas. When the parser reaches the semicolin, it stops.
 
 Object declration is achived through a similar method to how arrays are declared:
 ```
-someobject (o)
+someobject |o
   - firstvalue blah
   - secondvalue (a) a value, a second value
 ;
