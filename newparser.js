@@ -5,7 +5,7 @@ let parseBarnacle = function(text) {
   let currentMode = "key";
   for (let i = 0; i < text.length; i++) {
     if (text.at(i) === ";" && !(text.at(i - 1) === "\\")) {
-      Object.defineProperty(output, currentKey, {value: currentValue});
+      output[currentKey] = currentValue;
       currentMode = "key";
       currentValue = "";
       currentKey = "";
