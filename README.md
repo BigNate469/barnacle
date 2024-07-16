@@ -36,6 +36,10 @@ Characters are escaped using the | character (known as a pipe or absolute value 
 Currently, characters that must be escaped are:
 - spaces
 - semicolins
+
+Dispite beign the character used to escape things, the | character does not need to be escaped.
+
+Values CANNOT begin with a |a or |o, this will make the parser think that it is an array or object respectively.
 ## FAQ
 ### Why do I have to escape my spaces (and where's the = sign?)
 
