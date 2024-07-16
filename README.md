@@ -32,5 +32,15 @@ Characters are escaped using the | character (known as a pipe or absolute value 
 Currently, characters that must be escaped are:
 - spaces
 - semicolins
+## FAQ
+### Why do I have to escape my spaces (and where's the = sign?)
 
+In barnacle, a space takes the place of the equals sign or colin as the assignment operator. This reduces overall file size. However, if you're building a minifier for barnacle, you do have to keep this in mind.
+
+### Where's the quotes, and why are all the outputs strings?
+
+Barnacle assumes that all values are a string, or an array of strings. Objects can hold either of these. The programing language you use likely has a built-in function to turn strings into integers, floating-point numbers, or doubles- use that. Your programing language also has a way to turn numbers into strings- in a lot of languages, this can be achived through string concaction:
+```
+stringFromNumber = "" + 5
+```
 ## Please note that none of this is final and all of it is subject to change.
