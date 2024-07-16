@@ -10,11 +10,11 @@ let parseBarnacle = function(text) {
       currentMode = "key";
       currentValue = "";
       currentKey = "";
-    } else if (text.at(i) === " " && !(text.at(i2) === "|")) {
+    } else if (text.at(i) === " " && !(text.at(i2) === "|") && !(text.at(i) === "|")) {
       currentMode = "value";
-    } else if (currentMode === "key" && !(text.at(i2) === "|")) {
+    } else if (currentMode === "key" && !(text.at(i) === "|")) {
       currentKey = currentKey + text.at(i);
-    } else if (currentMode === "value" && !(text.at(i2) === "|")) {
+    } else if (currentMode === "value" && !(text.at(i) === "|")) {
       currentValue = currentValue + text.at(i);
     };
   };
