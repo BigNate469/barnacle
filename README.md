@@ -3,9 +3,13 @@ A data storage language designed for small size and human readablility. Please n
 ## specification & guide
 New values are declared by simply entering a name, space, and a value. Example:
 ```
-newvalue Hello World;
+newvalue HelloWorld;
 ```
-The parser only cares about the first space, after that, it considers the rest to be one value until a semicolin. Semicolins end values.
+Spaces must be escaped using a |. For example:
+```
+something my| value| is| 5;
+```
+Semicolins end values.
 
 Array/list declration is done by specifying data type immedately after the name:
 ```
