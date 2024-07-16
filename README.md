@@ -32,3 +32,5 @@ Characters are escaped using the | character (known as a pipe or absolute value 
 Currently, characters that must be escaped are:
 - spaces
 - semicolins
+
+## Please note that none of this is final and all of it is subject to change.
