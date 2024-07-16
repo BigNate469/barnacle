@@ -10,7 +10,7 @@ let parseBarnacle = function(text) {
       currentMode = "key";
       currentValue = "";
       currentKey = "";
-    } else if (text.at(i) === " " && !(text.at(i2) === "|") && !(text.at(i) === "|")) {
+    } else if (text.at(i) === " " && !(text.at(i2) === "|")) {
       currentMode = "value";
     } else if (currentMode === "key" && !(text.at(i) === "|")) {
       currentKey = currentKey + text.at(i);
