@@ -29,5 +29,6 @@ let parseBarnacle = function(text) {
       };
     };
   };
+  //TODO: object parser, take temporary key/value arrays and turn them into the return object.
   return output;
 };
