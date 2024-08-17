@@ -4,6 +4,6 @@ const parseBarnacle = function(text) {
   for (let i = 0; i < lines.length; i++) {
     let value = lines[i].split(" ");
     endValues[value[0]] = value.slice(1);
-    return(value.slice(1));
+    return value;
   }
 }
